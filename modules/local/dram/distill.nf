@@ -2,7 +2,7 @@ process DRAM_DISTILL {
     tag "${meta.id}"
     label 'process_high'
 
-    container "${workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container
+    container "${workflow.containerEngine in ['apptainer','singularity'] && !task.ext.singularity_pull_docker_container
         ? 'https://depot.galaxyproject.org/singularity/dram:1.3.5--pyhdfd78af_0'
         : 'quay.io/biocontainers/dram:1.3.5--pyhdfd78af_0'}"
 

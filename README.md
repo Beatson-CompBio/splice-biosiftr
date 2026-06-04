@@ -126,7 +126,7 @@ cd biosiftr/tests
 nextflow run ../main.nf \
     --input test_samplesheet.csv \
     --biome <CATALOGUE_ID> \
-    --dbs </path/to/dbs> \
+    --reference_dbs </path/to/dbs> \
     --decontamination_indexes </path to folder with bwa-mem2 indexes>
 ```
 

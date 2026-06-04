@@ -1,0 +1,45 @@
+#module	pangenome	core
+M00579|Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate	50.0	50.0
+M00549|Nucleotide sugar biosynthesis, glucose => UDP-glucose	33.33	33.33
+M00035|Methionine degradation	25.0	25.0
+M00620|Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	7.14	7.14
+M00140|C1-unit interconversion, prokaryotes	33.33	33.33
+M00086|beta-Oxidation, acyl-CoA synthesis	100.0	100.0
+M00093|Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE	33.33	33.33
+M00357|Methanogenesis, acetate => methane	10.0	10.0
+M00096|C5 isoprenoid biosynthesis, non-mevalonate pathway	12.5	12.5
+M00017|Methionine biosynthesis, aspartate => homoserine => methionine	28.57	28.57
+M00374|Dicarboxylate-hydroxybutyrate cycle	3.85	3.85
+M00526|Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine	33.33	33.33
+M00854|Glycogen biosynthesis, glucose-1P => glycogen/starch	50.0	50.0
+M00537|Xylene degradation, xylene => methylbenzoate	33.33	33.33
+M00909|UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc	20.0	20.0
+M00050|Guanine ribonucleotide biosynthesis, IMP => GDP,GTP	25.0	25.0
+M00651|Vancomycin resistance, D-Ala-D-Lac type	25.0	25.0
+M00565|Trehalose biosynthesis, D-glucose 1P => trehalose	16.67	16.67
+M00018|Threonine biosynthesis, aspartate => homoserine => threonine	40.0	40.0
+M00572|Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP	16.67	16.67
+M00892|UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc	16.67	16.67
+M00005|PRPP biosynthesis, ribose 5P => PRPP	100.0	100.0
+M00307|Pyruvate oxidation, pyruvate => acetyl-CoA	50.0	50.0
+M00855|Glycogen degradation, glycogen => glucose-6P	66.67	66.67
+M00016|Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine	22.22	22.22
+M00308|Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P	12.5	12.5
+M00007|Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P	75.0	75.0
+M00527|Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine	42.86	42.86
+M00377|Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	14.29	14.29
+M00552|D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P	20.0	20.0
+M00002|Glycolysis, core module involving three-carbon compounds	50.0	50.0
+M00173|Reductive citrate cycle (Arnon-Buchanan cycle)	5.0	5.0
+M00538|Toluene degradation, toluene => benzoate	33.33	33.33
+M00003|Gluconeogenesis, oxaloacetate => fructose-6P	28.57	28.57
+M00874|Fatty acid biosynthesis in mitochondria, fungi	16.67	16.67
+M00083|Fatty acid biosynthesis, elongation	25.0	25.0
+M00525|Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine	22.22	22.22
+M00033|Ectoine biosynthesis, aspartate => ectoine	40.0	40.0
+M00126|Tetrahydrofolate biosynthesis, GTP => THF	5.0	5.0
+M00001|Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	50.0	50.0
+M00004|Pentose phosphate pathway (Pentose phosphate cycle)	58.33	58.33
+M00345|Formaldehyde assimilation, ribulose monophosphate pathway	33.33	33.33
+M00165|Reductive pentose phosphate cycle (Calvin cycle)	36.36	36.36
+M00632|Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P	25.0	25.0

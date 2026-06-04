@@ -1,10 +1,38 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "https://raw.githubusercontent.com/ebi-metagenomics/biosiftr/master/nextflow_schema.json",
-    "title": "ebi-metagenomics/biosiftr pipeline parameters",
-    "description": "BioSIFTR pipeline for shallow-shotgun data analysis",
+    "$id": "https://github.com/Beatson-CompBio/splice-biosiftr/dev/nextflow_schema.json",
+    "title": "ebi-metagenomics/biosiftr pipeline parameters for SPLICE PLATFORM",
+    "description": "BioSIFTR pipeline for shallow-shotgun data analysis adapted for the SPLICE platform. This schema defines the parameters that can be used to configure the pipeline, including input and output options, reference databases, and generic options for pipeline execution.",
     "type": "object",
     "definitions": {
+        "splice_platform_option": {
+        "title": "SPLICE platform option",
+        "type": "object",
+        "description": "",
+        "default": "",
+        "properties": {
+            "jobfile": {
+            "type": "string",
+            "fa_icon": "fas fa-file-alt",
+            "description": "Path to the job JSON file containing sample information for the SPLICE platform."
+            },
+            "jobfile_input_dir": {
+            "type": "string",
+            "description": "Directory containing the FASTQ files referenced in the job JSON file.",
+            "fa_icon": "fas fa-folder"
+            },
+            "job_id": {
+            "type": "string",
+            "description": "Unique identifier for the current SPLICE job or analysis run.",
+            "fa_icon": "fas fa-address-card"
+            },
+            "short_job_id": {
+            "type": "string",
+            "description": "Shortened job identifier for the current SPLICE job or analysis run.",
+            "fa_icon": "far fa-address-card"
+            }
+        }
+        },
         "input_output_options": {
             "title": "Input/output options",
             "type": "object",
@@ -72,6 +100,7 @@
                     "fa_icon": "fas fa-envelope",
                     "help_text": "Set this parameter to your e-mail address to get a summary e-mail with details of the run sent to you when the workflow exits. If set in your user config file (`~/.nextflow/config`) then you don't need to specify this on the command line for every run.",
                     "pattern": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$",
+                    "errorMessage": "The email must be a valid address in the format 'name@example.com' and must not contain spaces.",
                     "hidden": true
                 },
                 "multiqc_title": {
@@ -227,6 +256,15 @@
                     "fa_icon": "fas fa-check-square",
                     "hidden": true
                 },
+                "trace_report_suffix": {
+                    "type": "string",
+                    "pattern": "^[a-zA-Z0-9_\\-\\.{}]+$",
+                    "fa_icon": "far fa-calendar-alt",
+                    "description": "Suffix to add to the trace report filename.",
+                    "help_text": "You can use '{date}' as a placeholder which will be replaced with the current date and time in the format 'yyyy-MM-dd_HH-mm-ss'. For example, 'run_{date}' will become 'run_2023-05-15_14-30-45'.",
+                    "errorMessage": "The trace report suffix must only contain alphanumeric characters, underscores, hyphens, dots, and curly braces for date placeholders.",
+                    "hidden": true
+                },
                 "validationShowHiddenParams": {
                     "type": "boolean",
                     "fa_icon": "far fa-eye-slash",
@@ -252,6 +290,9 @@
         }
     },
     "allOf": [
+        {
+            "$ref": "#/definitions/splice_platform_option"
+        },
         {
             "$ref": "#/definitions/input_output_options"
         },

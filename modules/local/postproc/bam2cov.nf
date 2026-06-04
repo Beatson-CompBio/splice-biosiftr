@@ -2,7 +2,7 @@ process POSTPROC_BAM2COV {
     tag "$meta.id"
     label 'process_single'
 
-    container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
+    container "${ workflow.containerEngine in ['apptainer','singularity'] && !task.ext.singularity_pull_docker_container ?
         'https://depot.galaxyproject.org/singularity/pysam:0.22.0--py39hcada746_0':
         'quay.io/biocontainers/pysam:0.22.0--py38h15b938a_0' }"
 

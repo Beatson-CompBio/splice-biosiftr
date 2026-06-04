@@ -1,7 +1,7 @@
 process POSTPROC_INTEGRATOR {
     label 'process_single'
 
-    container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
+    container "${ workflow.containerEngine in ['apptainer','singularity'] && !task.ext.singularity_pull_docker_container ?
         'https://depot.galaxyproject.org/singularity/biopython:1.81':
         'quay.io/biocontainers/biopython:1.81' }"
 

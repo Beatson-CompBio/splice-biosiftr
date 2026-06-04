@@ -2,7 +2,7 @@ process DOWNLOAD_DRAM_DB {
 
     container "${workflow.containerEngine in ['singularity', 'apptainer']
         ? 'https://depot.galaxyproject.org/singularity/gnu-wget:1.18--h36e9172_9'
-        : 'biocontainers/gnu-wget:1.18--h36e9172_9'}"
+        : 'quay.io/biocontainers/gnu-wget:1.18--h36e9172_9'}"
 
     output:
     path("dram_dbs/"), emit: dram_db

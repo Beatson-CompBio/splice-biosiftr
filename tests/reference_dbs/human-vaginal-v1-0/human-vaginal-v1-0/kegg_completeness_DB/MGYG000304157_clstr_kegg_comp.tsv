@@ -1,0 +1,143 @@
+#module	pangenome	core
+M00022|Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate	100.0	100.0
+M00975|Betaine degradation, bacteria, betaine => pyruvate	50.0	50.0
+M00909|UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc	80.0	80.0
+M00926|Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme	55.56	55.56
+M00924|Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	90.91	90.91
+M00842|Tetrahydrobiopterin biosynthesis, GTP => BH4	66.67	66.67
+M00017|Methionine biosynthesis, aspartate => homoserine => methionine	71.43	71.43
+M00019|Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine	100.0	100.0
+M00159|V/A-type ATPase, prokaryotes	88.89	88.89
+M00050|Guanine ribonucleotide biosynthesis, IMP => GDP,GTP	75.0	75.0
+M00116|Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol	22.22	22.22
+M00120|Coenzyme A biosynthesis, pantothenate => CoA	100.0	100.0
+M00124|Pyridoxal-P biosynthesis, erythrose-4P => pyridoxal-P	33.33	33.33
+M00004|Pentose phosphate pathway (Pentose phosphate cycle)	58.33	58.33
+M00972|Proline metabolism	33.33	33.33
+M00569|Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA	6.67	6.67
+M00046|Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate	100.0	100.0
+M00010|Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	100.0	100.0
+M00344|Formaldehyde assimilation, xylulose monophosphate pathway	25.0	25.0
+M00026|Histidine biosynthesis, PRPP => histidine	100.0	100.0
+M00023|Tryptophan biosynthesis, chorismate => tryptophan	100.0	100.0
+M00620|Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	28.57	28.57
+M00009|Citrate cycle (TCA cycle, Krebs cycle)	70.83	70.83
+M00868|Heme biosynthesis, animals and fungi, glycine => heme	25.0	25.0
+M00012|Glyoxylate cycle	60.0	60.0
+M00345|Formaldehyde assimilation, ribulose monophosphate pathway	66.67	66.67
+M00846|Siroheme biosynthesis, glutamyl-tRNA => siroheme	100.0	100.0
+M00632|Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P	25.0	25.0
+M00308|Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P	25.0	25.0
+M00029|Urea cycle	60.0	60.0
+M00025|Tyrosine biosynthesis, chorismate => HPP => tyrosine	50.0	50.0
+M00127|Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP	100.0	100.0
+M00913|Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate	50.0	50.0
+M00573|Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin	20.0	20.0
+M00527|Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine	100.0	100.0
+M00034|Methionine salvage pathway	37.5	37.5
+M00366|C10-C20 isoprenoid biosynthesis, plants	25.0	25.0
+M00552|D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P	40.0	40.0
+M00028|Ornithine biosynthesis, glutamate => ornithine	100.0	100.0
+M00368|Ethylene biosynthesis, methionine => ethylene	33.33	33.33
+M00038|Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate	14.29	14.29
+M00873|Fatty acid biosynthesis in mitochondria, animals	25.0	25.0
+M00968|Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate	16.67	16.67
+M00914|Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA	28.57	28.57
+M00958|Adenine ribonucleotide degradation, AMP => Urate	66.67	66.67
+M00020|Serine biosynthesis, glycerate-3P => serine	66.67	66.67
+M00912|NAD biosynthesis, tryptophan => quinolinate => NAD	37.5	37.5
+M00376|3-Hydroxypropionate bi-cycle	18.52	18.52
+M00036|Leucine degradation, leucine => acetoacetate + acetyl-CoA	16.67	16.67
+M00874|Fatty acid biosynthesis in mitochondria, fungi	41.67	41.67
+M00093|Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE	33.33	33.33
+M00149|Succinate dehydrogenase, prokaryotes	50.0	50.0
+M00959|Guanine ribonucleotide degradation, GMP => Urate	50.0	50.0
+M00845|Arginine biosynthesis, glutamate => acetylcitrulline => arginine	57.14	57.14
+M00373|Ethylmalonyl pathway	22.22	22.22
+M00572|Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP	50.0	50.0
+M00843|L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4	66.67	66.67
+M00033|Ectoine biosynthesis, aspartate => ectoine	40.0	40.0
+M00119|Pantothenate biosynthesis, valine/L-aspartate => pantothenate	66.67	66.67
+M00007|Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P	75.0	75.0
+M00170|C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type	25.0	25.0
+M00165|Reductive pentose phosphate cycle (Calvin cycle)	63.64	63.64
+M00848|Aurachin biosynthesis, anthranilate => aurachin A	3.12	3.12
+M00570|Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine	100.0	100.0
+M00878|Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA	14.29	14.29
+M00532|Photorespiration	22.22	22.22
+M00048|De novo purine biosynthesis, PRPP + glutamine => IMP	100.0	100.0
+M00899|Thiamine salvage pathway, HMP/HET => TMP	100.0	100.0
+M00024|Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine	50.0	50.0
+M00953|Mugineic acid biosynthesis, methionine => 3-epihydroxymugineic acid	20.0	20.0
+M00930|Menaquinone biosynthesis, futalosine pathway	16.67	16.67
+M00144|NADH	9.09	9.09
+M00125|Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD	66.67	66.67
+M00118|Glutathione biosynthesis, glutamate => glutathione	50.0	50.0
+M00740|Methylaspartate cycle	45.45	45.45
+M00021|Cysteine biosynthesis, serine => cysteine	100.0	100.0
+M00157|F-type ATPase, prokaryotes and chloroplasts	100.0	100.0
+M00840|Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF	33.33	33.33
+M00549|Nucleotide sugar biosynthesis, glucose => UDP-glucose	33.33	33.33
+M00580|Pentose phosphate pathway, archaea, fructose 6P => ribose 5P	50.0	50.0
+M00307|Pyruvate oxidation, pyruvate => acetyl-CoA	100.0	100.0
+M00088|Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone	33.33	33.33
+M00133|Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine	100.0	100.0
+M00895|Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP	100.0	100.0
+M00049|Adenine ribonucleotide biosynthesis, IMP => ADP,ATP	75.0	75.0
+M00136|GABA biosynthesis, prokaryotes, putrescine => GABA	25.0	25.0
+M00577|Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin	20.0	20.0
+M00052|Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP	66.67	66.67
+M00001|Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	88.89	88.89
+M00925|Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	63.64	63.64
+M00051|De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP	100.0	100.0
+M00117|Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol	11.11	11.11
+M00841|Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF	40.0	40.0
+M00015|Proline biosynthesis, glutamate => proline	100.0	100.0
+M00432|Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate	100.0	100.0
+M00957|Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA	4.0	4.0
+M00095|C5 isoprenoid biosynthesis, mevalonate pathway	14.29	14.29
+M00089|Triacylglycerol biosynthesis	25.0	25.0
+M00860|Bacillus anthracis pathogenicity signature, polyglutamic acid capsule biosynthesis	14.29	14.29
+M00140|C1-unit interconversion, prokaryotes	100.0	100.0
+M00121|Heme biosynthesis, plants and bacteria, glutamate => heme	60.0	60.0
+M00083|Fatty acid biosynthesis, elongation	100.0	100.0
+M00040|Tyrosine biosynthesis, chorismate => arogenate => tyrosine	33.33	33.33
+M00141|C1-unit interconversion, eukaryotes	50.0	50.0
+M00005|PRPP biosynthesis, ribose 5P => PRPP	100.0	100.0
+M00082|Fatty acid biosynthesis, initiation	100.0	100.0
+M00357|Methanogenesis, acetate => methane	20.0	20.0
+M00374|Dicarboxylate-hydroxybutyrate cycle	46.15	46.15
+M00123|Biotin biosynthesis, pimeloyl-ACP/CoA => biotin	33.33	33.33
+M00013|Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA	20.0	20.0
+M00364|C10-C20 isoprenoid biosynthesis, bacteria	50.0	50.0
+M00002|Glycolysis, core module involving three-carbon compounds	100.0	100.0
+M00126|Tetrahydrofolate biosynthesis, GTP => THF	80.0	80.0
+M00018|Threonine biosynthesis, aspartate => homoserine => threonine	80.0	80.0
+M00849|C5 isoprenoid biosynthesis, mevalonate pathway, archaea	16.67	16.67
+M00035|Methionine degradation	75.0	75.0
+M00173|Reductive citrate cycle (Arnon-Buchanan cycle)	70.0	70.0
+M00003|Gluconeogenesis, oxaloacetate => fructose-6P	100.0	100.0
+M00526|Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine	100.0	100.0
+M00844|Arginine biosynthesis, ornithine => arginine	100.0	100.0
+M00150|Fumarate reductase, prokaryotes	25.0	25.0
+M00011|Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	53.33	53.33
+M00346|Formaldehyde assimilation, serine pathway	55.56	55.56
+M00053|Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP	50.0	50.0
+M00855|Glycogen degradation, glycogen => glucose-6P	33.33	33.33
+M00122|Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	100.0	100.0
+M00016|Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine	77.78	77.78
+M00609|Cysteine biosynthesis, methionine => cysteine	16.67	16.67
+M00535|Isoleucine biosynthesis, pyruvate => 2-oxobutanoate	66.67	66.67
+M00725|Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon	33.33	33.33
+M00086|beta-Oxidation, acyl-CoA synthesis	100.0	100.0
+M00115|NAD biosynthesis, aspartate => quinolinate => NAD	100.0	100.0
+M00579|Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate	100.0	100.0
+M00375|Hydroxypropionate-hydroxybutylate cycle	14.29	14.29
+M00892|UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc	33.33	33.33
+M00950|Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin	25.0	25.0
+M00533|Homoprotocatechuate degradation, homoprotocatechuate => 2-oxohept-3-enedioate	25.0	25.0
+M00377|Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	42.86	42.86
+M00168|CAM (Crassulacean acid metabolism), dark	50.0	50.0
+M00096|C5 isoprenoid biosynthesis, non-mevalonate pathway	87.5	87.5
+M00525|Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine	66.67	66.67
+M00938|Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP	60.0	60.0
