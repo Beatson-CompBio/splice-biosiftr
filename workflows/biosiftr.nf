@@ -128,7 +128,8 @@ workflow BIOSIFTR {
     }
     else {
         // Custom reference
-        host_ref = Channel.fromPath("${params.decontamination_indexes}/${host_name}.*", checkIfExists: true)
+        // host_ref = Channel.fromPath("${params.decontamination_indexes}/${host_name}.*", checkIfExists: true)
+        host_ref = Channel.fromPath("${params.decontamination_indexes}/${host_name}_*", checkIfExists: true)
             .collect()
             .map { db_files ->
                 [[id: host_name], db_files]
