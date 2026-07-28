@@ -267,15 +267,6 @@
                     "fa_icon": "fas fa-check-square",
                     "hidden": true
                 },
-                "trace_report_suffix": {
-                    "type": "string",
-                    "pattern": "^[a-zA-Z0-9_\\-\\.{}]+$",
-                    "fa_icon": "far fa-calendar-alt",
-                    "description": "Suffix to add to the trace report filename.",
-                    "help_text": "You can use '{date}' as a placeholder which will be replaced with the current date and time in the format 'yyyy-MM-dd_HH-mm-ss'. For example, 'run_{date}' will become 'run_2023-05-15_14-30-45'.",
-                    "errorMessage": "The trace report suffix must only contain alphanumeric characters, underscores, hyphens, dots, and curly braces for date placeholders.",
-                    "hidden": true
-                },
                 "validationShowHiddenParams": {
                     "type": "boolean",
                     "fa_icon": "far fa-eye-slash",
